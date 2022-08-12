@@ -1,0 +1,165 @@
+<head>
+    <title>Portfolio</title>
+    <style>
+
+        body{
+            background-color: rgb(222, 195, 255);
+        }
+
+        .card h1{
+            color: rgb(0, 0, 0);
+            background-color: rgb(222, 200, 111);
+            margin:10px;
+        }
+
+        .card p{
+            padding: 10px;
+        }
+
+        .card{
+            border: solid rgba(78, 39, 2, 0.986) 3px; 
+            margin: 15px; 
+            width: 222px;
+        }
+
+        nav{
+            background-color: rgb(224, 144, 144);
+            border: solid rgba(78, 39, 2, 0.986) 4px;
+            padding: 10px;
+            flex-direction: initial;
+            display: flex;
+            justify-content: space-evenly;
+            margin: 10px;
+        }
+
+        nav a{
+            color:white ;
+        }
+        .link-container{
+            margin: 10px;
+            color: white;
+        }
+
+        .side-bar{
+            color: white;
+            background-color: rgb(162, 210, 135);
+            border: solid rgba(78, 39, 2, 0.986) 3px;
+            padding: 5;
+            flex-direction: row;
+            display: block;
+            justify-content: space-evenly;
+            margin: 10px;
+        }
+        
+
+        .card-container{
+            display:flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+        }
+
+        .main-container{
+            display:flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+        }
+
+        @media (max-width: 60px) {
+
+            .main-container{
+                flex-direction: column;
+            }
+
+            nav{
+                flex-direction: column;
+                color: white;
+            }
+
+            .card{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <img src="photo.jpeg" alt="Pic" width="92" height="130" style="border:2px solid black">
+        <h1 style="color:rgb(2, 6, 2)" style="font-size:40px;">Roshana S V
+        <br>Undergraduate Student
+        </br></h1>
+        <div class="link-container">
+            <a  style="color:rgb(2, 6, 2)" href="port.html">About</a>
+            <a  style="color:rgb(2, 6, 2)" href="index.html">Projects</a>
+            <a  style="color:rgb(2, 6, 2)" href="contact.html">Contact</a>
+        </div>
+    
+    </nav>
+
+    <div class="main-container">
+        
+        <div>
+            <h1></h1>
+            <p>&emsp;I am currently pursuing B.Tech Computer Science Engineering with a specialization in Big Data Analytics from SRMIST Kattankulathur. <br></br> </p>
+            <p>&emsp;I am dedicated and committed for becoming a valuable person in the world of Data Analytics.</p>
+            
+    
+            <div class="card-container">
+                <div>
+                    <div class="card">
+                        <h1>Programming</h1>
+                        <p>I have very good hands on experience with C++, C, Python and SQL.I am currently learning HTML, CSS and Javascript.</p>
+                    </div>
+                </div>
+        
+                <div>
+                    <div class="card">
+                        <h1>Hackathons</h1>
+                        <p>I have been actively participating in hackathons so far. I have participated in 2 hackathons till now. They are SIH and DIH.</p>
+                    </div>
+                </div>
+        
+                <div>
+                    <div class="card">
+                        <h1>Courses</h1>
+                        <p>I have been currently enrolled in AWS Academy Cloud Foundations and AWS Academy Machine Learning Foundations courses.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-container">
+                <div>
+                    <div class="card">
+                        <h1>Schooling</h1>
+                        <p>12th -- CBSE -- 93.4%
+                            <br>10th -- CBSE -- 87.6%
+                        </p>
+                    </div>
+                </div>
+    
+                <div>
+                    <div class="card">
+                        <h1>Soft Skills</h1>
+                        <p>● Problem solving<br>
+                        ● Effective communication<br>
+                        ● Teamwork & collaboration<br>
+                        ● Leadership & project management</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="side-bar">
+            <div>
+                <h2 style="color:rgb(2, 6, 2)">Contact Details</h2>  
+                <p><a  style="color:rgb(2, 6, 2)" href="https://www.linkedin.com/in/roshana-s-v-0a3483239/">Linkedin: https://www.linkedin.com/in/roshana-s-v-0a3483239/</a></p><br>
+                <p><a  style="color:rgb(2, 6, 2)" href="https://github.com/Roshana-SV">Github: https://github.com/Roshana-SV</a></p><br>
+                <p style="color:rgb(2, 6, 2)">Email: rv8419@srmist.edu.in</p><br>
+                <p style="color:rgb(2, 6, 2)">Phone no: 9629446866</p><br>
+                
+            </div>
+            
+        </div>
+    </div>
+</body>
